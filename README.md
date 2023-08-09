@@ -15,7 +15,7 @@ Base64 encoded IV: +FF6fGiq8GBxBsgNh0l9Zg==
 
 ```
 
-The following decryption C# code can be used in the binary.
+The following decryption C# code can be used in the binary. Taken from the [SharpInjector](https://github.com/Tw1sm/SharpInjector/blob/master/SharpInjector/Program.cs) project.
 ```C#
 public static byte[] Dec(string ciphertext)
         {
